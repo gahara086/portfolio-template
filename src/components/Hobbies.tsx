@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { Box, Typography, Paper, List, ListItem, ListItemText, ListItemIcon, CardMedia, Dialog, DialogTitle, DialogContent, Grow } from '@mui/material';
 import StarIcon from '@mui/icons-material/Star'; // 成就や成果を示すアイコン
-import CameraAltIcon from '@mui/icons-material/CameraAlt'; // 写真撮影のアイコン
 import TravelExploreIcon from '@mui/icons-material/TravelExplore'; // 旅行のアイコン
 import MusicNoteIcon from '@mui/icons-material/MusicNote'; // 音楽のアイコン
 
