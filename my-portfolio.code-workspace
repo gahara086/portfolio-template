@@ -1,0 +1,22 @@
+{
+    "folders": [
+        {
+            "path": "."
+        }
+    ],
+    "settings": {
+        "[json]": {
+            "editor.defaultFormatter": "rvest.vs-code-prettier-eslint" // JSONに対してPrettierを適用
+        },
+        "[typescript]": {
+            "editor.defaultFormatter": "esbenp.prettier-vscode" // TypeScriptに対してPrettierを適用
+        },
+        "editor.formatOnSave": true, // 保存時に自動でフォーマットする,
+        "eslint.validate": [
+            "javascript",
+            "javascriptreact",
+            "typescript",
+            "typescriptreact"
+        ]
+    }
+}
